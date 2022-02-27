@@ -22,4 +22,4 @@
     kubectl get po,svc,endpoints
     kubectl get all
     kubectl scale --replicas='number' deployment 'name-deployment'
-    
+    kubectl explain pod

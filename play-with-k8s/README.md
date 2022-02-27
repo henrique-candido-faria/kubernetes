@@ -15,5 +15,5 @@
   kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
 
 ## Then you can join any number of worker nodes by running the following on each as root:
-  kubeadm join 192.168.0.22:6443 --token 1ggylb.clpmppzg0rdbs3yt \
-    --discovery-token-ca-cert-hash sha256:2e14b65e4ab6c06b4a5411a6fca9ddd7e5cae30f942f4dddc8bbac96e0945a48
+  kubeadm join 192.168.0.13:6443 --token 92q4cf.e8he2nb5zr7iwjua \
+    --discovery-token-ca-cert-hash sha256:37f6da71053d02c12a0cd16dd0d0ee4f78b1ab33f5149893bf0160a6a353a2f3
